@@ -1,0 +1,35 @@
+.chatbot-float-button {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #38d39f;
+      color: white;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      z-index: 1000;
+    }
+    
+    .chatbot-float-button:hover {
+      transform: scale(1.1);
+    }
+    
+    .chatbot-popup {
+      position: fixed;
+      bottom: 95px;
+      right: 25px;
+      width: 370px;
+      max-height: 500px;
+      z-index: 1000;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+    

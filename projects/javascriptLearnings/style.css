@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9; /* Light green background */
+  color: #1b5e20; /* Dark green text */
+  margin: 0;
+  padding: 0;
+}
+
+#para {
+  padding: 10px;
+  background-color: #e8f5e9;
+  border: none;
+  font-size: 2em;
+  outline: none; 
+  cursor: default;
+}
+
+#para:focus {
+  border: none; /* Ensure no border appears on focus */
+  outline: none; /* Remove focus outline completely */
+}
+
+#db {
+  /* transition: top -0.1s, left -1s; */
+  border: none;
+  width: 140px;
+  height:100px;
+  background: tomato;
+  border-radius: 15px;
+  font-weight: bolder;
+  color:white;
+  font-size: 20px;
+  padding : 5px;
+  margin: 5px;
+  
+}

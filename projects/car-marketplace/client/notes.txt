@@ -1,0 +1,12 @@
+import axios from "axios"
+
+
+const getAllCars = async()=>{
+      var acars = []
+      await axios.get("http://localhost:5000/cars").then((res) => {
+        acars = res.data
+      })
+    return acars
+}
+
+
